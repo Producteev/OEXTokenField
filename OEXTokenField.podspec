@@ -13,5 +13,4 @@ Pod::Spec.new do |s|
   s.public_header_files = [ "OEXTokenAttachmentCell.h", "OEXTokenField.h", "OEXTokenFieldCell.h" ]
   s.requires_arc        = true
   
-  s.documentation       = { :appledoc => ["--explicit-crossref", "--preprocess-headerdoc", "--no-repeat-first-par"] }
 end
